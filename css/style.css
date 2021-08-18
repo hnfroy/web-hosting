@@ -1,0 +1,56 @@
+* {
+	margin:0;
+	padding: 0;
+	font-family:'Quicksand', sans-serif;
+}
+.box{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%,-50%);
+    padding: 20px 25px;
+    width: 300px;
+    background-color: rgb(0 0 0 / 80%);
+    box-shadow: 0 0 10px rgb(0 0 0 / 74%);
+}
+body {
+    background-image:url(../img/perpustakaan.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.tabel1 {
+    width: 30%;
+    margin: 5px;
+}
+.box h1{
+    text-align: left;
+    color: #fafafa;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    border-bottom: 4px solid #ffffff;
+}
+.box label{
+    text-align: left;
+    color: #ffffff;
+}
+.box input{
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #ffffff;
+    color: #fff;
+}
+.box button{
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    background-color:rgb(255, 94, 1);
+    font-size: 18px;
+    color: #fafafa;
+}
+.btn:hover{
+	cursor: pointer;
+	background-color: rgb(226, 83, 0);
+}
